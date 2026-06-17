@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claimstimulus.myprizepalooza.com)",
+      "Bash(curl -sL \"https://claimstimulus.myprizepalooza.com/\" --max-time 30 -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" -o /tmp/claimstimulus_live.html)",
+      "Bash(echo \"---STATUS:$?---\")",
+      "Read(//tmp/**)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git -C '/Users/wblacklockpushnami.com/Library/CloudStorage/GoogleDrive-wblacklock@pushnami.com/My Drive/02_Landing Pages/Splash Pages/061726/ClaimStimulus' add -A)",
+      "Bash(git -C '/Users/wblacklockpushnami.com/Library/CloudStorage/GoogleDrive-wblacklock@pushnami.com/My Drive/02_Landing Pages/Splash Pages/061726/ClaimStimulus' status --short)",
+      "Bash(git -C '/Users/wblacklockpushnami.com/Library/CloudStorage/GoogleDrive-wblacklock@pushnami.com/My Drive/02_Landing Pages/Splash Pages/061726/ClaimStimulus' commit -q -m 'Initial commit: ClaimStimulus landing page' -m 'Static single-page lander \\(ClaimStimulus.html\\) with logo, favicon, and image assets.' -m 'Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>')",
+      "Bash(echo \"commit exit:$?\")",
+      "Bash(gh repo *)"
+    ]
+  }
+}
