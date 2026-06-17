@@ -1,1 +1,8 @@
+# OS
 .DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Stray logo/favicon design board (kept locally, not part of the deployed page)
+77b7cab9-2900-4748-9103-16b1f6cf89b8.png
